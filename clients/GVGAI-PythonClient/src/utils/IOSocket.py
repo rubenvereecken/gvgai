@@ -7,6 +7,9 @@ import time
 
 from CompetitionParameters import CompetitionParameters
 
+from functools import partial
+bytes = partial(bytes, encoding='utf8')
+
 
 class IOSocket:
     """
